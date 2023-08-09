@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creeaza-ti un cont</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+    <header id="register">
+        <h2>O viata sanatoasa</h2>
+    <div class="meniu">
+        <a href="../index.html">Home</a>
+        <a href="login.html">Register</a>
+        <a href="contact.html">Contact</a> 
+    </div>
+    </header>
+    <div class="flex-container">
+        <div class="flex-item">
+    <form action="/action_page.php" method="get">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname" placeholder="Prenume" required><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname" placeholder="Nume" required><br>
+      <label for="lname">Email:</label>
+      <input type="text" id="email" name="email" placeholder="example@email.com" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required><br>
+      <label for="tel">Telefon:</label>
+      <input type="tel" id="phone" name="phone" placeholder="07xxxxxxxx" pattern="[0-9]{10}"  required>
+      <br><br>
+      <li class="button">
+      <input type="submit" value="Creaza cont">
+      </li>
+    </form> 
+    </div>
+    </div>
+    </div>
+</body>
+</html>
